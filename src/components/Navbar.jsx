@@ -114,7 +114,7 @@ const handleClick = () => setNav(!nav);
 
             <li className = 'w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#565f69]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href='\Users\ROHIT\Downloads\Rohit_Resume (5)-1.pdf'>
+                href='https://drive.google.com/file/d/1NQcy1wZqHbwDdk0BvU9ixVgLB44J6NzB/view?usp=drive_link'>
                     Resume <BsFillPersonLinesFill  size={30}/>
                 </a>
             </li>
