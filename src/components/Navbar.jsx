@@ -128,7 +128,7 @@ const handleClick = () => setNav(!nav);
 
 
     
-    <div className='fixed lg:hidden bottom-0 left-0 right-0 bg-gray-800'>
+    <div className='fixed lg:hidden bottom-0 left-0 right-0 bg-gray-800 rounded-full'>
             <ul className='flex justify-center space-x-4 p-2'>
                 <li className='flex flex-col items-center '>
                     <a href='https://www.linkedin.com/in/rohit-rodge-373077214/' className='text-gray-300 flex flex-col items-center'>
