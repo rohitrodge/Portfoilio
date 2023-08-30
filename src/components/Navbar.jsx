@@ -11,6 +11,10 @@ const [nav, setNav] = useState(false);
 const handleClick = () => setNav(!nav);
 
 
+
+
+
+
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
        <div>
@@ -114,14 +118,45 @@ const handleClick = () => setNav(!nav);
 
             <li className = 'w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] bg-[#565f69]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href='https://drive.google.com/file/d/1NQcy1wZqHbwDdk0BvU9ixVgLB44J6NzB/view?usp=drive_link'>
+                href='https://drive.google.com/file/d/1LWQntCXtONDIwyS_iloipPVNnFx5ZmW4/view?usp=drive_link.com'>
                     Resume <BsFillPersonLinesFill  size={30}/>
                 </a>
             </li>
 
         </ul>
     </div>
+
+
     
+    <div className='fixed lg:hidden bottom-0 left-0 right-0 bg-gray-800'>
+            <ul className='flex justify-center space-x-4 p-2'>
+                <li className='flex flex-col items-center '>
+                    <a href='https://www.linkedin.com/in/rohit-rodge-373077214/' className='text-gray-300 flex flex-col items-center'>
+                        <FaLinkedin size={30} />
+                        <span className='text-xs'>Linkedin</span>
+                    </a>
+                </li>
+                <li className='flex flex-col items-center'>
+                    <a href='https://github.com/rohitrodge' className='text-gray-300 flex flex-col items-center'>
+                        <FaGithub size={30} />
+                        <span className='text-xs'>Github</span>
+                    </a>
+                </li>
+                <li className='flex flex-col items-center'>
+                    <a href='mailto:webrohit27@gmail.com' className='text-gray-300 flex flex-col items-center'>
+                        <HiOutlineMail size={30} />
+                        <span className='text-xs'>Email</span>
+                    </a>
+                </li>
+                <li className='flex flex-col items-center'>
+                    <a href='https://drive.google.com/file/d/1LWQntCXtONDIwyS_iloipPVNnFx5ZmW4/view?usp=drive_link.com' className='text-gray-300 flex flex-col items-center'>
+                        <BsFillPersonLinesFill size={30} />
+                        <span className='text-xs'>Resume</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
     
     
     </div>
